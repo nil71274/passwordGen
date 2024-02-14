@@ -1,8 +1,10 @@
-# React + Vite
+Here is another react project Passeord Generator. In this project I have used react hooks namely useState, useEffect, useCallback and useRef. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+useState hook helped me to manage state of length of password. I also helped to store boolean values of number and character button.
 
-Currently, two official plugins are available:
+useEffect hook helped to change password when any change occurred in number, character and lengh of password.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+useRef used to refer a password generated texbox. Using this hook the selected or copied text effect added to input textbox.
+
+useCallback hook used to optimize the code. According to depedecies provided to this hook is stores that depedecies in cache memory.
+
